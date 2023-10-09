@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React, { createContext,useState } from 'react';
+import ReactSwitch from 'react-switch';
 import './App.css';
+import Project from './Project';
+import Resume from './Resume';
+import Other from './Other';
+import Home from './Home';;
 
+export const ThemeContext = createContext(null);
 function App() {
+  const [theme, setTheme] = useState("light")
+  const toggleTheme=()=>{
+    setTheme((curr)=>(curr==="light"?"dark":"light"));
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ThemeContext.Provider value={{theme,setTheme}}>
+      <div className='App ' id={theme}>
+        <div className='z-2 switch w-100  h-100 d-flex justify-content-end'><ReactSwitch onChange={toggleTheme} checked={theme==="dark"} />
+        <label className='fs-5 ps-2'>{theme==="light"?"Light Mode":"Dark Mode"}</label>
+        </div>
+        <Home/>
+        <Project/>
+        <Resume/>
+        <Other/>
+        <hr/>
+        <section id="end">
+          <div className="container-fluid">
+            <h1 style={{ overflowY: 'hidden' }} className="head text-center my-5 fs-1 fw-bold">
+              You Have Reached The End. Thank You! <i className="icon fa-solid fa-heart" ></i>
+            </h1>
+          </div>
+        </section>
+      </div>
+      </ThemeContext.Provider>
+    </>
   );
 }
 
