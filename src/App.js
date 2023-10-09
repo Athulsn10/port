@@ -16,7 +16,7 @@ function App() {
     <>
     <ThemeContext.Provider value={{theme,setTheme}}>
       <div className='App ' id={theme}>
-        <div className='z-2 switch w-100  h-100 d-flex justify-content-end'><ReactSwitch onChange={toggleTheme} checked={theme==="dark"} />
+        <div className='z-2 switch w-100  d-flex justify-content-end'><ReactSwitch onChange={toggleTheme} checked={theme==="dark"} />
         <label className='fs-5 ps-2'>{theme==="light"?"Light Mode":"Dark Mode"}</label>
         </div>
         <Home/>
