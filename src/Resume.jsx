@@ -61,7 +61,7 @@ function Resume() {
         <a href="https://github.com/Athulsn10" target="_blank">
           <i className="fs-2 fa-brands fa-github" style={{ color: '#ffffff' }}></i>
         </a>
-        <a href="https://www.instagram.com/_athul.exe/" target="_blank">
+        <a href="https://www.instagram.com/_athul.exe/" target="_blank" rel="noreferrer">
           <i className="fs-2 ps-2 fa-brands fa-instagram" style={{ color: '#ffffff' }}></i>
         </a>
         <a href="https://linktr.ee/Athul.S.Nair" target="_blank">

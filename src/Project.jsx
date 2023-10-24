@@ -23,6 +23,22 @@ function Project() {
             </div>
           </div>
           <div className="col">
+            <div className="card h-100">
+              <img src="./image/contact-manager.png" className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title overflow-hidden">Contact Manager-CRUD</h5>
+                <p className="card-text">
+                <i className="icon fa-brands fs-2 fa-react"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-html5"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-css3-alt"  ></i>
+                    <i className="icon fa-brands ps-1 fs-2 fa-js"  ></i>
+                    <i className="icon fa-brands ps-1 fs-2 fa-bootstrap"  ></i>
+                </p>
+                <a href="https://contact-manager-crud.vercel.app/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#ffffff'}}><button type="button" className="d-flex align-items-center prj-btn btn btn-dark">Visit Site<i className="ps-1 fa-solid fa-link" style={{color: '#ffffff'}}></i></button></a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
           <div className="card h-100">
             <img src="./image/netflix.png" className="img-fluid card-img-top" alt="..."/>
             <div className="card-body">
@@ -157,7 +173,6 @@ function Project() {
               </div>
             </div>
           </div>
-
           {/* Repeat similar blocks for other projects */}
         </div>
       </section>

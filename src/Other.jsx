@@ -18,7 +18,7 @@ function Other() {
                 <i className="icon fa-brands ps-1 fs-2 fa-windows"  ></i>
               </p>
               <a href="https://online.fliphtml5.com/lthbi/yhjb/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>
-                <button type="button" className="d-flex align-items-center btn btn-dark">
+                <button type="button" className="d-flex prj-btn align-items-center btn btn-dark">
                   Click Here
                   <i className="icon ps-1 fa-solid fa-link"></i>
                 </button>
@@ -38,7 +38,7 @@ function Other() {
                 <i className="icon fa-brands ps-1 fs-2 fa-windows"  ></i>
               </p>
               <a href="https://online.fliphtml5.com/lthbi/xegh/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>
-                <button type="button" className="d-flex align-items-center btn btn-dark">
+                <button type="button" className="d-flex align-items-center prj-btn btn btn-dark">
                   Click Here
                   <i className="icon ps-1 fa-solid fa-link" ></i>
                 </button>
