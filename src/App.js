@@ -8,6 +8,8 @@ import Home from './Home';;
 
 export const ThemeContext = createContext(null);
 function App() {
+  const sun = './sun.png'
+  const moon = "./moon.png"
   const [theme, setTheme] = useState("dark")
   const toggleTheme=()=>{
     setTheme((curr)=>(curr==="light"?"dark":"light"));
@@ -17,13 +19,10 @@ function App() {
     <ThemeContext.Provider value={{theme,setTheme}}>
       <div className='App ' id={theme}>
         <div className='z-2 switch w-100  d-flex justify-content-end'>
-        <div>
-        <input type="checkbox" class="checkbox" id="checkbox" onChange={toggleTheme} checked={theme==="dark"}/>
-        <label for="checkbox" class="checkbox-label">
-          <i class="fas fa-moon"></i>
-          <i class="fas fa-sun"></i>
-          <span class="ball"></span>
-          </label>
+          <div className="switch me-4">
+            <div class="theme-container shadow-dark rounded-circle" style={{backgroundColor:'black'}}>
+              <img className='m-2' width={30} onClick={toggleTheme} checked={theme === "dark"} id="theme-icon" src={theme === 'dark' ? sun : moon} alt="ERR"/>
+            </div>
           </div>
         </div>
         <Home/>

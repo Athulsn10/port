@@ -50,6 +50,9 @@
 #light {
   background-color: white;
 }
+#light #theme-icon {
+  filter: invert(1);
+}
 
 #dark{
   background-color: black;

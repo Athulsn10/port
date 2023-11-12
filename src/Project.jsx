@@ -24,14 +24,30 @@ function Project() {
           </div>
           <div className="col">
             <div className="card h-100">
-              <img src="./image/contact-manager.png" className="card-img-top" alt="..."/>
+              <img src="./image/enigma.png" className="img-fluid card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title overflow-hidden">Contact Manager-CRUD</h5>
-                <p className="card-text">
+                <h5 className="card-title overflow-hidden">Anonymous Thoughts</h5>
+                <p className="card-text d-flex">
                 <i className="icon fa-brands fs-2 fa-react"  ></i> 
                     <i className="icon fa-brands ps-1 fs-2 fa-html5"  ></i> 
                     <i className="icon fa-brands ps-1 fs-2 fa-css3-alt"  ></i>
-                    <i className="icon fa-brands ps-1 fs-2 fa-js"  ></i>
+                    <i className="icon fa-brands ps-1 pe-1 fs-2 fa-bootstrap"  ></i>
+                    <img width="30" src="https://img.icons8.com/color/240/000000/material-ui.png" alt="material-ui"/></p>
+                  <a href="https://enigma-doc-app.vercel.app/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>
+                  <button type="button" className="prj-btn d-flex align-items-center btn btn-dark">
+                    Visit Site<i className="ps-1 fa-solid fa-link" style={{ color: '#ffffff' }}></i></button></a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img src="./image/contact-manager.png" className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title overflow-hidden">Contact Manager-CRUD</h5>
+                <p className="card-text d-flex">
+                    <i className="icon fa-brands fs-2 fa-react"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-html5"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-css3-alt"  ></i>
                     <i className="icon fa-brands ps-1 fs-2 fa-bootstrap"  ></i>
                 </p>
                 <a href="https://contact-manager-crud.vercel.app/" target="_blank" rel="noreferrer" style={{textDecoration: 'none', color: '#ffffff'}}><button type="button" className="d-flex align-items-center prj-btn btn btn-dark">Visit Site<i className="ps-1 fa-solid fa-link" style={{color: '#ffffff'}}></i></button></a>
