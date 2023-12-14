@@ -7,6 +7,28 @@ function Project() {
         <hr />
         <h2 className="head text-center mt-4 fs-1 fw-bold overflow-hidden">Projects</h2>
         <div className="mt-3 mx-2 row row-cols-1 row-cols-md-3 g-4">
+          {/* chatify */}
+        <div className="col">
+            <div className="card h-100">
+              <img src="./image/chatify.png" className="img-fluid card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title overflow-hidden">Chatify-ChatApp</h5>
+                <p className="card-text d-flex align-items-center">
+                <i className="icon fa-brands fs-2 fa-react"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-html5"  ></i> 
+                    <i className="icon fa-brands ps-1 fs-2 fa-css3-alt"  ></i>
+                    <i className="icon fa-brands ps-1 fs-2 fa-bootstrap"  ></i>
+                    <i className="icon fab ps-1 fs-2 me-2 fa-node-js"></i>
+                    <img width="30" src="https://img.icons8.com/color/240/000000/material-ui.png" alt="material-ui"/>
+                    <img src="https://cdnlogo.com/logos/m/30/mongodb-icon.svg" width={42} alt="mongoDB" />
+                  </p>
+                 <a href="https://chatify-brown.vercel.app/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>
+                  <button type="button" className="prj-btn d-flex align-items-center btn btn-dark">
+                    Visit Site<i className="ps-1 fa-solid fa-link" style={{ color: '#ffffff' }}></i></button></a>
+              </div>
+            </div>
+          </div>
+          {/* beki */}
           <div className="col">
             <div className="card h-100">
               <img src="./image/beki.png" className="img-fluid card-img-top" alt="..." />
@@ -22,6 +44,7 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* thought app */}
           <div className="col">
             <div className="card h-100">
               <img src="./image/enigma.png" className="img-fluid card-img-top" alt="..." />
@@ -39,6 +62,7 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* contact manager */}
           <div className="col">
             <div className="card h-100">
               <img src="./image/contact-manager.png" className="card-img-top" alt="..."/>
@@ -54,6 +78,7 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* netflix */}
           <div className="col">
           <div className="card h-100">
             <img src="./image/netflix.png" className="img-fluid card-img-top" alt="..."/>
@@ -70,6 +95,7 @@ function Project() {
             </div>
           </div>
         </div>
+        {/* google translate */}
         <div className="col">
           <div className="card h-100">
             <img src="./image/google-translate.png" className="img-fluid card-img-top" alt="..."/>
@@ -102,6 +128,7 @@ function Project() {
             </div>
           </div>
         </div>
+        {/* simple calculator */}
         <div className="col">
           <div className="card h-100">
             <img src="./image/calculator.png" className="img-fluid card-img-top" alt="..."/>
@@ -117,6 +144,7 @@ function Project() {
             </div>
           </div>
         </div>
+        {/* weather App */}
         <div className="col">
           <div className="card h-100">
             <img src="./image/weather.png" className="card-img-top" alt="..."/>
@@ -132,6 +160,7 @@ function Project() {
             </div>
           </div>
         </div>
+        {/* login signup page */}
         <div className="col">
           <div className="card h-100">
             <img src="./image/login.png" className="card-img-top" alt="..."/>
@@ -146,6 +175,7 @@ function Project() {
             </div>
           </div>
         </div>
+        {/* keep notes */}
         <div className="col">
             <div className="card h-100">
               <img src="./image/keep-notes.png" className="card-img-top" alt="..."/>
@@ -162,6 +192,7 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* foot cart */}
           <div className="col">
             <div className="card h-100">
               <img src="./image/edavazhi.png" className="card-img-top" alt="..."/>
@@ -175,6 +206,7 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* donations */}
           <div className="col">
             <div className="card h-100">
               <img src="./image/donation.png" className="card-img-top" alt="..."/>

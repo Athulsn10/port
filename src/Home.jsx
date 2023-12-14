@@ -36,9 +36,8 @@ function Home() {
               </div>
             </div>
           </div>
-
           {/* left column with skills,hobbies,nav-bar */}
-             <div className="col-12 col-md-8 mt-5 order-md-first" style={{ height: 'fit-content' }}>
+           <div className="col-12 col-md-8 mt-5 order-md-first" >
       {/* skills */}
       <div className="ps-3">
         <h3 className='head' style={{ overflow: 'hidden', fontSize: '40px', fontWeight: 700 }}>Skills</h3>
