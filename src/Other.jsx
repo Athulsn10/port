@@ -6,11 +6,11 @@ function Other() {
     <section id="other">
         <hr />
         <h2 className="head text-center mt-4 fs-1 fw-bold overflow-hidden">Other Projects</h2>
-      <div className="mt-3 mx-1 row row-cols-1 row-cols-sm-2 g-4">
+      <div className="mt-3 mx-1 row d-flex align-items-center justify-content-center">
         {/* Project 1 */}
-        <div className="col">
+        <div className="col-md-6 col-sm-6 col-lg-3">
           <div className="card">
-            <img src="./image/FINAL COVER copy.jpg" className="img-fluid card-img-top" alt="..." />
+            <img src="./image/FINAL COVER copy.jpg" className="img-fluid card-img-top" alt="..."  />
             <div className="card-body">
               <h5 className="card-title overflow-hidden">Ezperanza College Magazine</h5>
               <p className="card-text d-flex align-items-center">
@@ -28,7 +28,7 @@ function Other() {
         </div>
 
         {/* Project 2 */}
-        <div className="col">
+        <div className="col-md-6 col-sm-6 col-lg-3">
           <div className="card">
             <img src="./image/MAGAZINE CONCEPT tst04.png" className="img-fluid card-img-top" alt="..." />
             <div className="card-body">
