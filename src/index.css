@@ -4,12 +4,24 @@
 }
 
 ::-webkit-scrollbar {
-    width: 9px; 
+    width: 8px; 
+    height: 8px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: #2c2c2b; 
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #fdfdfd; 
+    background-color: transparent; 
+}
+
+
+.card-text{
+    height: 70px;
+}
+
+@media (max-width: 768px) {
+   .project-card{
+    width: 300px !important;
+   }
 }

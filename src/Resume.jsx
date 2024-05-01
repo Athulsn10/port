@@ -34,7 +34,7 @@ function Resume() {
   return (
     <>
     <section id="resume">
-        <div className="container-fluid my-5" style={{ backgroundColor: '#000000' }}>
+        <div className="container-fluid p-4 my-5" style={{ backgroundColor: '#000000' }}>
         <div className="row">
       {/* Resume Section */}
       <div className="col-md-8 col-sm-12 mb-4">
@@ -47,7 +47,7 @@ function Resume() {
           extravaganza that is my career. Click on it – it's like the "Play" button for my life's greatest hits. Spoiler alert:
           there might be a dance move or two (professionally speaking, of course). Let’s tango!
         </p>
-       <button onClick={handleDownload} type="button" className="btn btn-primary fs-6">Resume <i className="ms-2 fa-solid fa-download" style={{ color: '#ffffff' }}></i></button>
+       <button onClick={handleDownload} type="button" className="btn btn-primary w-100 fs-6">Resume <i className="ms-2 fa-solid fa-download" style={{ color: '#ffffff' }}></i></button>
       </div>
 
       {/* Contact Section */}

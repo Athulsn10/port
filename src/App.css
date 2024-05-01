@@ -4,9 +4,10 @@
     font-family: 'Poppins', sans-serif;
     padding: 0%;
     margin: 0%;
-    overflow-x: hidden;
 }
-
+body{
+  overflow-x: hidden;
+}
 .hey{
     font-size: 50px;
     font-weight: 600;
@@ -73,6 +74,9 @@
   background-color: #282424;
 }
 #dark .card-title {
+  color: white;
+}
+#dark .card-body {
   color: white;
 }
 #dark .prj-btn{

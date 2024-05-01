@@ -14,7 +14,7 @@ function Other() {
             <div className="card-body">
               <h5 className="card-title overflow-hidden">Ezperanza College Magazine</h5>
               <p className="card-text d-flex align-items-center">
-               <i class="icon mt-2 pe-1 fs-2 fi fi-brands-photoshop"></i>
+               <i className="icon mt-2 pe-1 fs-2 fi fi-brands-photoshop"></i>
                 <i className="icon fa-brands ps-1 fs-2 fa-windows"  ></i>
               </p>
               <a href="https://online.fliphtml5.com/lthbi/yhjb/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>
@@ -34,7 +34,7 @@ function Other() {
             <div className="card-body">
               <h5 className="card-title overflow-hidden">Face Magazine</h5>
               <p className="card-text d-flex align-items-center">
-              <i class="icon mt-2 pe-1 fs-2 fi fi-brands-photoshop"></i>
+              <i className="icon mt-2 pe-1 fs-2 fi fi-brands-photoshop"></i>
                 <i className="icon fa-brands ps-1 fs-2 fa-windows"  ></i>
               </p>
               <a href="https://online.fliphtml5.com/lthbi/xegh/" target="_blank" style={{ textDecoration: 'none', color: '#ffffff' }}>

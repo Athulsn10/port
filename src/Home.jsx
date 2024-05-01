@@ -59,7 +59,7 @@ function Home() {
           </div>
           <div className="col-sm-5">
             <div className="skill-item d-flex align-items-center">
-            <i class="icon pe-1 fs-2 fi fi-brands-photoshop"></i> Adobe Photoshop
+            <i className="icon pe-1 fs-2 fi fi-brands-photoshop"></i> Adobe Photoshop
             </div>
           </div>
           <div className="col-sm-5">
